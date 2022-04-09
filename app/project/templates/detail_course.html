@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="tile is-ancestor">
+    <div class="tile is-vertical">
+      
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-danger">
+              <p class="title">Assignments for course</p>
+              <p class="subtitle">foo</p>
+          <div class="content">
+            <!-- Content -->
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="notification is-danger">
+                    {{ messages[0] }}
+                </div>
+            {% endif %}
+            {% endwith %}
+            {{ assignments }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+{% endblock %}

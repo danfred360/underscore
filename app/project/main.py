@@ -14,15 +14,24 @@ def index():
 def profile():
     return render_template('profile.html', name=current_user.name)
 
-@main.route('/assignments')
+@main.route('/courses')
 @login_required
-def assignments():
-    assignments = []
-
+def courses():
     url = "https://canvas.instructure.com/api/v1/courses?access_token={}".format(current_user.canvas_key)
 
     response = urllib.request.urlopen(url)
     data = response.read()
     dict = json.loads(data)
 
-    return render_template('assignments.html', assignments=dict["results"])
+    return render_template('courses.html', courses=dict)
+
+@main.route('/courses/<id>')
+@login_required
+def detail_course(id):
+    url = "https://canvas.instructure.com/api/v1/courses/{}/assignments?access_token={}".format(id, current_user.canvas_key)
+
+    response = urllib.request.urlopen(url)
+    data = response.read()
+    dict = json.loads(data)
+
+    return render_template('detail_course.html', assignments=dict)

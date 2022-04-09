@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="tile is-ancestor">
+    <div class="tile is-vertical">
+      
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification has-background-black-ter">
+              <p class="title">Courses</p>
+              <p class="subtitle">Select a course</p>
+          <div class="content">
+            <!-- Content -->
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  {% for course in courses %}
+                    <article class="tile is-child notification is-danger">
+                        <a href="courses/{{ course.id }}"><p class="title">{{ course.name }}</p></a>
+                        <p class="subtitle">{{ course.description }}</p>
+                    </article>
+                  {% endfor %}
+                  {% if courses.length == 0 %}
+                  <article class="tile is-child notification has-background-grey-darker">
+                    <p class="title">No courses found</p>
+                  </article>
+                  {% endif %}
+                </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+{% endblock %}
