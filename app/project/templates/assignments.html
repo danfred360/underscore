@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% for assignment in assignments %}
+    <article class="tile is-child notification is-danger">
+        <a href=""><p class="title">Assignment</p></a>
+        <p class="subtitle">{{ assignment }}</p>
+    </article>
+{% endfor %}
+{% endblock %}

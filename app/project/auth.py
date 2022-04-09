@@ -34,6 +34,7 @@ def signup_post():
     email = request.form.get('email')
     name = request.form.get('name')
     password = request.form.get('password')
+    canvas_key = request.form.get('canvas_key')
 
     user = User.query.filter_by(email=email).first()
 
@@ -41,7 +42,7 @@ def signup_post():
         flash('Email address already exists')
         return redirect(url_for('auth.signup'))
 
-    new_user = User(email=email, name=name, password=generate_password_hash(password, method='sha256'))
+    new_user = User(email=email, name=name, password=generate_password_hash(password, method='sha256'), canvas_key=canvas_key)
 
     db.session.add(new_user)
     db.session.commit()
