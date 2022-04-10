@@ -7,97 +7,99 @@ from azure.ai.textanalytics import (
 )
 
 class Course:
-    def __init__(self, id, name, description, calendar_ics):
+    def __init__(self, id, course_code, name):
         self.id = id
+        self.course_code = course_code
         self.name = name
-        self.description = description
-        self.calendar_ics = calendar_ics
 
 class Assignment:
-    def __init__(self, id, name, description, due_at, course_id, course_inst):
+    def __init__(self, id, name, description, due_at, points_possible, course_id, course_inst, call_azure=True):
         self.id = id
         self.name = name
         self.description = description
         self.due_at = due_at
+        self.points_possible = points_possible
         self.course_id = course_id
         self.course_inst = course_inst
+        if call_azure:
+            self.key_phrases = self.extract_key_phrases()
+        else:
+            self.key_phrases = ['not gathered, srry']
 
-courses_url = "https://canvas.instructure.com/api/v1/courses?access_token={}".format(os.environ['TOKEN'])
+    def extract_key_phrases(self):
+        credential = AzureKeyCredential('TEXT_ANYL_KEY')
+        endpoint = os.environ['TEXT_ANYL_ENDPOINT']
 
-response = urllib.request.urlopen(courses_url)
-data = response.read()
-course_dict = json.loads(data)
+        text_analytics_client = TextAnalyticsClient(endpoint, credential)
 
-courses = []
-assignments = []
+        documents = [{
+            "id": self.id,
+            "language": "en",
+            "text": self.description
+        }]
 
-for course in course_dict:
-    try:
-        new_course = Course(course['id'], course['name'], course['description'], course['calendar_ics'])
-        courses.append(new_course)
-    except:
-        print("exception occurred gathering info for course: {} - missing critical info".format(course['id']))
-    try:
-        url = "https://canvas.instructure.com/api/v1/courses/{}/assignments?access_token={}".format(course['id'], os.environ['TOKEN'])
+        response = text_analytics_client.extract_key_phrases(documents, language="en")
+        result = [doc for doc in response if not doc.is_error]
+
+        return result[0].key_phrases
+
+class Prioritizer:
+    def __init__(self):
+        self.courses = self.get_courses()
+        self.assignments = self.get_assignments()
+
+    def get_courses(self):
+        print("\n\t ---- getting courses ----\n")
+        url = "https://canvas.instructure.com/api/v1/courses?access_token={}".format(os.environ['TOKEN'])
         response = urllib.request.urlopen(url)
         data = response.read()
-        assignments_dict = json.loads(data)
+        course_dict = json.loads(data)
 
-        for assignment in assignments_dict:
+        courses = []
+
+        for course in course_dict:
             try:
-                new_assignment = Assignment(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignment['course_id'], course)
-                assignments.append(new_assignment)
+                val = course["access_restricted_by_date"]
             except:
-                print("exception occurred gathering assignment info for assignment: {} - missing critical info".format(assignment['id']))
-    except:
-        print("exception occurred gathering assignments for course: {}".format(course['id']))
+                # print("\n{} - {}\nDescription: {}".format(course['id'], course['course_code'], course['name']))
+                new_course_obj = Course(course['id'], course['course_code'], course['name'])
+                courses.append(new_course_obj)
 
-credential = AzureKeyCredential(os.environ['TEXT_ANYL_KEY'])
-text_analytics_client = TextAnalyticsClient(endpoint=os.environ['TEXT_ANYL_ENDPOINT'], credential=credential)
+        return courses
 
-documents = []
-for i in range(0, 9):
-    documents.append({
-        "id": i,
-        "language": "en",
-        "text": assignments[i].description
-        })
+    def get_assignments(self):
+        print("\n\t ---- getting assignments ----\n")
+        assignments = []
 
-poller = text_analytics_client.begin_analyze_actions(
-    documents,
-    display_name="Sample Text Analysis",
-    actions=[
-        RecognizeEntitiesAction(),
-        AnalyzeSentimentAction()
-    ]
-)
+        for course in self.courses:
+            try:
+                url = "https://canvas.instructure.com/api/v1/courses/{}/assignments?access_token={}".format(course.id, os.environ['TOKEN'])
+                response = urllib.request.urlopen(url)
+                data = response.read()
+                assignments_dict = json.loads(data)
 
-document_results = poller.result()
-for doc, action_results in zip(documents, document_results):
-    recognize_entities_result, analyze_sentiment_result = action_results
-    print("\nDocument text: {}".format(doc))
-    print("...Results of Recognize Entities Action:")
-    if recognize_entities_result.is_error:
-        print("......Is an error with code '{}' and message '{}'".format(
-            recognize_entities_result.code, recognize_entities_result.message
-        ))
-    else:
-        for entity in recognize_entities_result.entities:
-            print("......Entity: {}".format(entity.text))
-            print(".........Category: {}".format(entity.category))
-            print(".........Confidence Score: {}".format(entity.confidence_score))
-            print(".........Offset: {}".format(entity.offset))
+                for assignment in assignments_dict:
+                    # print("\n{} - {}\nDescription: {}\nDue at: {}\nPoints Possible: {}\nCourse: {}".format(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignment['points_possible'], assignment['course_id']))
+                    if len(assignments) < 10:
+                       try:
+                           new_assignment_obj = Assignment(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignment['points_possible'], assignment['course_id'], course)
+                           assignments.append(new_assignment_obj)
+                           # print("\n\tkeywords for assignment: {} - \n{}\n".format(new_assignment.name, new_assignment.key_phrases))
+                       except Exception as e:
+                           print("exception occurred gathering assignment info for assignment: {} - \n{}\n".format(assignment['id'], e))
+                    else:
+                       print("10 assignments reached -- skipping azure api call")
+                       new_assignment_obj = Assignment(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignments['allowed_extensions'], assignment['points_possible'], assignment['course_id'], current_course, False)
+                       assignments.append(new_assignment_obj)
+            except Exception as e:
+                print("exception occurred gathering assignments for course: {} - \n{}".format(course.id, e))
+        return assignments
 
-    print("...Results of Analyze Sentiment action:")
-    if analyze_sentiment_result.is_error:
-        print("......Is an error with code '{}' and message '{}'".format(
-            analyze_sentiment_result.code, analyze_sentiment_result.message
-        ))
-    else:
-        print("......Overall sentiment: {}".format(analyze_sentiment_result.sentiment))
-        print("......Scores: positive={}; neutral={}; negative={} \n".format(
-            analyze_sentiment_result.confidence_scores.positive,
-            analyze_sentiment_result.confidence_scores.neutral,
-            analyze_sentiment_result.confidence_scores.negative,
-        ))
-    print("------------------------------------------")
+    def print_prioritized_assignments(self):
+        for i in range(len(self.assignments) - 1):
+            a = self.assignments[i]
+            print("\nPos: {}\n{} - {}\nDue at: {}\nPoints Possible: {}\nCourse: {}".format(i, a.id, a.name, a.due_at, a.points_possible, a.course_id))
+
+p = Prioritizer()
+p.print_prioritized_assignments()
+# print(p.assignments)
