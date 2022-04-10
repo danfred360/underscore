@@ -1,0 +1,24 @@
+
+	 ---- getting courses ----
+
+
+	 ---- getting assignments ----
+
+exception occurred gathering assignment info for assignment: 10500000013794123 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435150 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435160 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435164 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435165 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435166 - 
+list index out of range
+
