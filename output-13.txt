@@ -1,0 +1,396 @@
+
+	 ---- getting courses ----
+
+
+	 ---- getting assignments ----
+
+exception occurred gathering assignment info for assignment: 10500000013794123 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435150 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435160 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435164 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435165 - 
+list index out of range
+
+exception occurred gathering assignment info for assignment: 10500000013435166 - 
+list index out of range
+
+
+	---- printing un-prioritized assignment list ----
+
+Pos: 0
+10500000013435152 - Chapter 9 Powerpoint
+Due at: None
+Points Possible: 0.0
+Course: 10500000002169921
+Key Phrases: ['Chapter 9 Powerpoints', 'instructure_file_link instructure', 'canvas', 'courses', 'guzG2JYQNn62YT6XNIOK7d4TH1tQJ3X5HEZWkPLS', 'wrap', 'api-returntype', 'script', 'instructure-uploads', 'attachments']
+Score: 100
+
+Pos: 1
+10500000013435147 - Assignment 1
+Due at: 2022-02-05T04:59:59Z
+Points Possible: 100.0
+Course: 10500000002169921
+Key Phrases: ['information security', 'U.S.', 'E.U.', 'MS Word', 'reference page', '3 page', 'agencies', 'graphics', 'overview', 'Canvas', 'deadline', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 160
+
+Pos: 2
+10500000013435148 - Assignment 2
+Due at: 2022-02-19T04:59:59Z
+Points Possible: 100.0
+Course: 10500000002169921
+Key Phrases: ['4 page review', 'first assignment', 'Security Certification', '>Information Systems', 'respect', 'requirements', 'Sarbanes-Oxley', 'FISMA', 'Guide', 'Accreditation', 'Federal', 'SANS', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile']
+Score: 100
+
+Pos: 3
+10500000013435149 - Assignment 3
+Due at: 2022-04-16T03:59:59Z
+Points Possible: 100.0
+Course: 10500000002169921
+Key Phrases: ['Research commercial software products/devices', 'single 5 page document', 'required reference page', 'two page writeup', 'company-owned devices', 'desktop computers', 'software/device products', 'employee activities', 'employees', 'laptops', 'level', 'detail', 'laws', 'regulations', 'organization', 'lack', 'graphics', 'Canvas', 'deadline', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 150
+
+Pos: 4
+10500000013048103 - L01: Activities - Introduction to Computers 
+Due at: 2021-08-28T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['first general purpose computer', 'Penn State Automatic Computer', 'Penn Engineering', 'Onward State', 'initial uses', 'Lecture Videos', 'Computing Video', 'Action Items', 'online content', 'due date', 'Portable Computers', 'Objectives', 'history', 'time', 'Readings', 'Webpage', 'seas', 'upenn', 'eniac', 'onwardstate', 'penn-state-automatic-computer', 'PENNSTAC', 'iframe', 'youtube', 'M6lANfzFsM', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'media', 'gyroscope', 'picture', 'Evolution', 'Laptops', 'MGL047HMxSk', 'Lesson', 'Introduction', 'canvas', 'courses', 'instructure', 'returntype', 'Week', '4138603" data-api', 'Module', 'assignments', 'amazonaws', '6/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 5
+10500000013048115 - L07B: Activities - Operating System Command Line Commands
+Due at: 2021-10-16T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Command Line Basics Cyber Range', 'Operating System Command Line Commands', 'Useful Command Line Commands', 'Learning Linux Command Line', 'Mac) Command Line', 'Windows Command Line', 'Linux command lines', 'Windows 10 Command Prompt', 'operating systems', 'Appendix A', 'following websites', 'cheat sheets', 'sans.org', 'key operations', 'Supplemental Materials', 'InfoSec Institute', 'Power Shell', 'Remote Access', 'Text Control', 'Action Items', 'Lesson 07B', 'online content', 'due date', 'Group Project', 'Lecture Videos', 'Video Introduction', 'app.infosecinstitute', 'Objectives', 'Readings', 'textbook', 'security-resources', 'windows_command_line_sheet', 'phoenixnap', 'linux-commands', 'examples', 'ability', 'tutorials', 'Linux/Mac', 'iframe', 'youtube', 'AF2q81CxYFI', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'gyroscope', 'picture', 'TSZJIxkB2QU', 'Unix', 'yz7nYlnXLfE', 'labs', 'tree', 'path', 'Exercises', 'clilab1-navigation', '26 minutes', 'clilab8-PowerShell', '12 minutes', 'clilab10-RemoteAccess', 'telnet', 'SSH', '11 minutes', 'clilab2-TextControl', '13 minutes', 'clilab4-net-tools', 'IProute2', 'canvas', 'courses', 'endpoint', 'instructure', 'returntype', 'assignments', 'modules', 'api', 'amazonaws', '10500000000085746/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 6
+10500000013048107 - L02: Activities - Operating Systems Fundamentals
+Due at: 2021-09-04T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Operating Systems Video', 'Operating Systems Fundamentals', 'funadmental components', 'detailed explanations', 'technical explanations', 'Action Items', 'online content', 'due date', '<a title', 'Group Project', 'Mobile.js', 'Lecture Videos', 'Succeeding videos', 'Chapter 1 Powerpoint', 'computer operations', 'Objectives', 'roles', 'functioning', 'Readings', 'textbook', 'PPT', 'instructure', 'Module', 'canvas', 'courses', '7/files', 'yK9uASwQteNktz45Q4DDaLbo81q8it2ucONtjOao', 'api-returntype', 'set', 'overview', 'development', 'computers', 'need', 'History', 'Computing', 'iframe', 'youtube', '26QPDBe-NB8', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'gyroscope', 'picture', 'Introduction', 'vBURTt97EkA', 'Purpose', 'YqIveJ2t2Js', 'media', 'pVzRTmdd9j0', 'Lesson 02', 'assignments', 'amazonaws', '10500000000085746/attachments', '2>']
+Score: 100
+
+Pos: 7
+10500000013048109 - L03: Activities - Modern Client and Server Operating Systems
+Due at: 2021-09-11T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Mac OS Snow Leopard', 'Penn State Library System', 'Apple Mac operating system', 'modern network operating systems', 'Server Operating Systems', 'modern computer networking', 'outside text chapter', 'Modern Client', 'Outside Materials', 'key information', 'MS Windows', 'catalog.libraries', 'client-server model', 'Client-Server Concept', '2>Action Items', 'online content', 'due date', 'Group Project', 'client/server architecture', 'Lecture Videos', 'Client-Server Architecture', 'extended introduction', 'role', 'Readings', 'textbook', 'psu', 'Depth', 'PPT', 'instructure', 'Module', 'canvas', 'courses', 'files', 'Y2EWgP71OiGiA8ZkF7gyLaXe21Cq4i2abzREvh7o', 'endpoint', 'returntype', 'Powerpoint', 'set', 'foundation', 'basis', 'Internet', 'iframe', 'youtube', 'toLnp3PJVVA', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'media', 'gyroscope', 'picture', 'Uu8KfoK1uPE', 'Lesson', 'assignments', 'api', 'uploads', 'amazonaws', '6/attachments', 'Mobile', 'js']
+Score: 100
+
+Pos: 8
+10500000013048110 - L04: Activities - The Central Processing Unit (CPU)
+Due at: 2021-09-18T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['The Central Processing Unit', 'Von Neumann Architecture', 'Outside Materials', 'additional information', 'basic architecture', 'computersciencewiki.org', 'Lecture Videos', 'following videos', 'main architecture', '2>Action Items', 'online content', 'due date', 'Group Project', 'Mobile.js', 'CPU Architecture', 'CPU) Design', 'CPU Design', 'instructure_file_link instructure', 'Objectives', 'components', 'role', 'functioning', 'Readings', 'Chapter', 'textbook', 'website', 'Basics', 'PPT', 'Module', 'canvas', 'courses', 'files', 'VuDtpJehsdP4U38w0mDtbxT3xkXUYwGDgA08UpTU', 'returntype', 'Powerpoint', 'heart', 'soul', 'device', 'functionality', 'users', 'machine', 'introductions', 'operation', 'iframe', 'youtube', 'rtAlC5J1U40', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'gyroscope', 'picture', 'SbqXqQ-2ixs', 'media', 'Lesson', 'assignments', 'api', 'uploads', 'amazonaws', '6/attachments']
+Score: 100
+
+Pos: 9
+10500000013048111 - L05: Activities - File Systems
+Due at: 2021-09-25T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['simple mathematical operations', 'Linux Operating Systems', 'MacOS file system', 'file systems', 'File Formats', 'Outside Materials', 'additional content', 'critical role', 'Tutorials Point', 'Lecture Videos', 'two videos', 'key functionality', 'Action Items', 'online content', 'due date', 'Group Project', 'files systems', 'Website Tutorial', 'Chapter 4 Powerpoint', 'instructure_file_link instructure', 'Objectives', 'Windows', 'Readings', 'textbook', 'computer', 'tutorialspoint', 'operating_system', 'file_system', 'PPT', 'Module', 'canvas', 'courses', 'lsVObd3zCgsF2gGapDg0KsqA4ZUfjKxD1UfAiGuA', 'returntype', 'set', 'nature', 'workings', 'Introduction', 'iframe', 'youtube', 'KN8YgJnShPM', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'gyroscope', 'picture', 'h30HBYxtws', 'Lesson 05', 'api', 'endpoint', 'assignments', '<a', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 10
+10500000013048112 - L06: Activities - Installing and Configuring Operating Systems
+Due at: 2021-10-02T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Linux operating systems', 'Upgrading Operating Systems', 'Outside Materials', 'useful information', 'Action Items', 'online content', 'due date', 'Group Project', 'New Computer', 'Lecture Video', 'Chapter 5 Powerpoint', 'Hypervisor Lab', 'instructure_file_link instructure', '>Lab', 'Objectives', 'knowledge', 'Windows', 'issues', 'Readings', 'textbook', 'The', 'Wiki', 'installation', 'Brand-New-Computer', 'PPT', 'Module', 'canvas', 'courses', 'files', 'nBiDisezTTM2Qy9OvFvqQjeXiLklqHd15B1ei6T4', 'api-returntype', 'hands', 'instruction', 'iframe', 'youtube', '0kY9v5GNbb4', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'gyroscope', 'picture', 'assignments', 'endpoint', 'Lesson', 'title', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 11
+10500000013048114 - L07A: Activities - Devices and Device Drivers
+Due at: 2021-10-09T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Driver Development Course', 'OS Security Course', 'operating systems', 'key link', 'peripheral components', 'basic introductions', 'Supplemental Material', 'InfoSec Institute', '2>Action Items', 'Lesson 07A', 'online content', 'due date', 'Group Project', 'Mobile.js', 'device drivers', 'Linux) drivers', 'Lecture Videos', 'input/output devices', 'Linux Devices', 'Windows 10 Drivers', 'instructure_file_link instructure', 'Objectives', 'importance', 'function', 'Readings', 'Chapter', 'textbook', 'Website', 'computerhope', 'jargon', 'Basics', 'PPT', 'Module', 'canvas', 'courses', 'files', 'download', 'Qg8Z3JsKnxI1lTzIlFtpdwTWOHqw54tI8vjlcvUh', 'api-returntype', 'Powerpoint', 'iframe', 'youtube', 'ZvSRrVVhqV4', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'gyroscope', 'picture', 'b58CnY7qxpk', 'media', 'infosecinstitute', 'skills', 'path', '43 minutes', 'Hardware', 'endpoint', 'assignments', 'script', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments']
+Score: 100
+
+Pos: 12
+10500000013048118 -  L08: Activities - Installing and Configuring Storage
+Due at: 2021-10-23T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['data storage devices', 'different types', 'Hard Drive', 'Lecture Videos', 'Desktop PC', 'Action Items', 'online content', 'due date', 'Group Project', 'secondary storage', 'Storage Spaces', 'Chapter 7 Powerpoint', 'canvas.instructure', 'Objectives', 'technologies', 'Readings', 'textbook', 'websites', 'detail', 'primary', 'computers', 'digitaltrends', 'ram', 'Wiki', 'a-Hard-Drive', 'PPT', 'Module', 'courses', 'download', '7w1PsdBKABAd9WooCHJSQVOzyRE0TiEr8cZonJZ7', 'files', 'api-returntype', 'Basics', 'Linux', 'youtube', 'TQ5m6TgzWx0', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'media', 'gyroscope', 'picture', 'Windows', 'N0ykQSbslmA', 'C-osLuzsXOs', 'Lesson', 'assignments', 'title', 'script', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile', '2>']
+Score: 100
+
+Pos: 13
+10500000013048119 - L09: Activities - Virtualization and Cloud Computing Fundamentals
+Due at: 2021-10-30T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['VMware Hypervisor Architecture', 'global computing environment', 'Cloud Computing Fundamentals', 'Platform Virtualization Software', 'various forms', 'secure environments', 'Internet-based storage', 'foreseeable future', 'Lecture Video', 'Supplemental Materials', 'InfoSec Institute', 'Action Items', 'online content', 'due date', 'Group Project', 'key technology', 'Accenture Website', 'instructure_file_link instructure', 'Wikipedia Comparison', 'Objectives', 'basics', 'Readings', 'Chapter', 'textbook', 'websites', 'insight', 'today', 'computers', 'importance', 'platform_virtualization_software', 'cloud-computing-index', 'PPT', 'Module', 'canvas', 'courses', 'OtjycxUu53kr4W8dy0XcEOG3GEgwdZFzLHDfVDt7', 'endpoint', 'returntype', 'Powerpoint', 'Introduction', 'EvXn2QiL3gs', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'media', 'gyroscope', 'picture', 'VirtualBox', 'iframe', 'youtube', 'sB_5fqiysi4', 'Hyper-V', 'Em7zAMMrd70', 'RWgW-CgdIk0', 'infosecinstitute', 'skills', 'minutes', 'Lesson', 'api', 'assignments', 'title', 'script', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 14
+10500000012636845 - Quiz 1.1 (Online)
+Due at: 2021-01-30T04:59:00Z
+Points Possible: 11.0
+Course: 10500000002116351
+Key Phrases: ['20-minute time limit', 'single attempt', 'quiz', 'Sections', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 150
+
+Pos: 15
+10500000012636812 - Quiz 2.2 (Online)
+Due at: 2021-02-02T04:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['practice quizzes', 'course website', '10 Questions', 'Sections', 'videos', 'instructure-uploads', 'amazonaws', 'attachments', 'Mobile']
+Score: 100
+
+Pos: 16
+10500000012636840 - Quiz 3.1 (Data Types-Online)
+Due at: 2021-02-20T04:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['course notes', 'MySQL manuals', 'DB account', 'online quiz', 'sections', 'website', 'statements', 'help', 'Lab', 'script', 'instructure-uploads', 'amazonaws', 'attachments']
+Score: 100
+
+Pos: 17
+10500000012636813 - Quiz 3.4 (Create, Update, Referential Integrity -online) 
+Due at: 2021-03-02T04:59:00Z
+Points Possible: 8.0
+Course: 10500000002116351
+Key Phrases: ['40 min time limit', 'One question', 'quiz', 'Sections', 'labs', '8 questions', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 150
+
+Pos: 18
+10500000012636811 - Quiz 4.1-Normalization 
+Due at: 2021-03-13T04:59:59Z
+Points Possible: 15.0
+Course: 10500000002116351
+Key Phrases: ['Lecture notes', 'Chapter', 'quiz', 'instructure-uploads', 'amazonaws', 'attachments', 'Mobile']
+Score: 150
+
+Pos: 19
+10500000012636844 - Quiz 5.1 (Online)
+Due at: 2021-03-30T03:59:00Z
+Points Possible: 8.0
+Course: 10500000002116351
+Key Phrases: ['time limit', 'one trial', '60-minute', 'Questions', 'Sections', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments']
+Score: 100
+
+Pos: 20
+10500000012636823 - Midterm (InClass)
+Due at: 2021-03-23T21:59:00Z
+Points Possible: 100.0
+Course: 10500000002116351
+Key Phrases: ['serious academic integrity violation', '>60-minute time limit', 'multiple-choice questions', 'Midterm Exams', 'class', 'topics', 'mixture', 'script', 'instructure-uploads', 'amazonaws', 'attachments']
+Score: 100
+
+Pos: 21
+10500000012636820 - Quiz 5.3 (Online)
+Due at: 2021-03-30T03:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['id(s', 'partial credit', 'query', 'MySQL', 'row', 'NULL', 'order', 'points', 'instructure-uploads', 'amazonaws', 'attachments', 'Mobile']
+Score: 100
+
+Pos: 22
+10500000012636821 - Quiz 5.5.2: Group by  
+Due at: 2021-04-10T03:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['continuous time period', 'strong>numerical answers', '<strong>exam', 'strong> database', 'Class Activity', 'Math Courses', '>use exam', 'database account', 'exam database', 'SQL queries', 'lecture notes', 'StudentID INT', 'OTerm CHAR', 'OYear YEAR', 'ProfID INT', 'Grade INT', 'primary key', 'following table', 'RNO INT', 'Credit INT', 'table mathcourse', 'quiz', 'instructions', 'assignment', 'Type', 'problems', '1rem', '60 minutes', 'Section', 'CourseID', 'Weight', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile']
+Score: 150
+
+	---- printing prioritized assignment list ----
+
+Pos: 0
+10500000013435147 - Assignment 1
+Due at: 2022-02-05T04:59:59Z
+Points Possible: 100.0
+Course: 10500000002169921
+Key Phrases: ['information security', 'U.S.', 'E.U.', 'MS Word', 'reference page', '3 page', 'agencies', 'graphics', 'overview', 'Canvas', 'deadline', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 160
+
+Pos: 1
+10500000013435149 - Assignment 3
+Due at: 2022-04-16T03:59:59Z
+Points Possible: 100.0
+Course: 10500000002169921
+Key Phrases: ['Research commercial software products/devices', 'single 5 page document', 'required reference page', 'two page writeup', 'company-owned devices', 'desktop computers', 'software/device products', 'employee activities', 'employees', 'laptops', 'level', 'detail', 'laws', 'regulations', 'organization', 'lack', 'graphics', 'Canvas', 'deadline', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 150
+
+Pos: 2
+10500000012636845 - Quiz 1.1 (Online)
+Due at: 2021-01-30T04:59:00Z
+Points Possible: 11.0
+Course: 10500000002116351
+Key Phrases: ['20-minute time limit', 'single attempt', 'quiz', 'Sections', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 150
+
+Pos: 3
+10500000012636813 - Quiz 3.4 (Create, Update, Referential Integrity -online) 
+Due at: 2021-03-02T04:59:00Z
+Points Possible: 8.0
+Course: 10500000002116351
+Key Phrases: ['40 min time limit', 'One question', 'quiz', 'Sections', 'labs', '8 questions', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile']
+Score: 150
+
+Pos: 4
+10500000012636811 - Quiz 4.1-Normalization 
+Due at: 2021-03-13T04:59:59Z
+Points Possible: 15.0
+Course: 10500000002116351
+Key Phrases: ['Lecture notes', 'Chapter', 'quiz', 'instructure-uploads', 'amazonaws', 'attachments', 'Mobile']
+Score: 150
+
+Pos: 5
+10500000012636821 - Quiz 5.5.2: Group by  
+Due at: 2021-04-10T03:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['continuous time period', 'strong>numerical answers', '<strong>exam', 'strong> database', 'Class Activity', 'Math Courses', '>use exam', 'database account', 'exam database', 'SQL queries', 'lecture notes', 'StudentID INT', 'OTerm CHAR', 'OYear YEAR', 'ProfID INT', 'Grade INT', 'primary key', 'following table', 'RNO INT', 'Credit INT', 'table mathcourse', 'quiz', 'instructions', 'assignment', 'Type', 'problems', '1rem', '60 minutes', 'Section', 'CourseID', 'Weight', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile']
+Score: 150
+
+Pos: 6
+10500000012636841 - Quiz 5.6 Joins (Online)
+Due at: 2021-04-17T03:59:00Z
+Points Possible: 15.0
+Course: 10500000002116351
+Key Phrases: ['Coffee Shop class activity', 'sql&nbsp;questions', 'relevant sections', 'exam database', 'quiz', 'joins', 'sub-queries', '90 minutes', 'time', 'script', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile']
+Score: 150
+
+Pos: 7
+10500000013435152 - Chapter 9 Powerpoint
+Due at: None
+Points Possible: 0.0
+Course: 10500000002169921
+Key Phrases: ['Chapter 9 Powerpoints', 'instructure_file_link instructure', 'canvas', 'courses', 'guzG2JYQNn62YT6XNIOK7d4TH1tQJ3X5HEZWkPLS', 'wrap', 'api-returntype', 'script', 'instructure-uploads', 'attachments']
+Score: 100
+
+Pos: 8
+10500000013435148 - Assignment 2
+Due at: 2022-02-19T04:59:59Z
+Points Possible: 100.0
+Course: 10500000002169921
+Key Phrases: ['4 page review', 'first assignment', 'Security Certification', '>Information Systems', 'respect', 'requirements', 'Sarbanes-Oxley', 'FISMA', 'Guide', 'Accreditation', 'Federal', 'SANS', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile']
+Score: 100
+
+Pos: 9
+10500000013048103 - L01: Activities - Introduction to Computers 
+Due at: 2021-08-28T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['first general purpose computer', 'Penn State Automatic Computer', 'Penn Engineering', 'Onward State', 'initial uses', 'Lecture Videos', 'Computing Video', 'Action Items', 'online content', 'due date', 'Portable Computers', 'Objectives', 'history', 'time', 'Readings', 'Webpage', 'seas', 'upenn', 'eniac', 'onwardstate', 'penn-state-automatic-computer', 'PENNSTAC', 'iframe', 'youtube', 'M6lANfzFsM', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'media', 'gyroscope', 'picture', 'Evolution', 'Laptops', 'MGL047HMxSk', 'Lesson', 'Introduction', 'canvas', 'courses', 'instructure', 'returntype', 'Week', '4138603" data-api', 'Module', 'assignments', 'amazonaws', '6/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 10
+10500000013048115 - L07B: Activities - Operating System Command Line Commands
+Due at: 2021-10-16T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Command Line Basics Cyber Range', 'Operating System Command Line Commands', 'Useful Command Line Commands', 'Learning Linux Command Line', 'Mac) Command Line', 'Windows Command Line', 'Linux command lines', 'Windows 10 Command Prompt', 'operating systems', 'Appendix A', 'following websites', 'cheat sheets', 'sans.org', 'key operations', 'Supplemental Materials', 'InfoSec Institute', 'Power Shell', 'Remote Access', 'Text Control', 'Action Items', 'Lesson 07B', 'online content', 'due date', 'Group Project', 'Lecture Videos', 'Video Introduction', 'app.infosecinstitute', 'Objectives', 'Readings', 'textbook', 'security-resources', 'windows_command_line_sheet', 'phoenixnap', 'linux-commands', 'examples', 'ability', 'tutorials', 'Linux/Mac', 'iframe', 'youtube', 'AF2q81CxYFI', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'gyroscope', 'picture', 'TSZJIxkB2QU', 'Unix', 'yz7nYlnXLfE', 'labs', 'tree', 'path', 'Exercises', 'clilab1-navigation', '26 minutes', 'clilab8-PowerShell', '12 minutes', 'clilab10-RemoteAccess', 'telnet', 'SSH', '11 minutes', 'clilab2-TextControl', '13 minutes', 'clilab4-net-tools', 'IProute2', 'canvas', 'courses', 'endpoint', 'instructure', 'returntype', 'assignments', 'modules', 'api', 'amazonaws', '10500000000085746/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 11
+10500000013048107 - L02: Activities - Operating Systems Fundamentals
+Due at: 2021-09-04T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Operating Systems Video', 'Operating Systems Fundamentals', 'funadmental components', 'detailed explanations', 'technical explanations', 'Action Items', 'online content', 'due date', '<a title', 'Group Project', 'Mobile.js', 'Lecture Videos', 'Succeeding videos', 'Chapter 1 Powerpoint', 'computer operations', 'Objectives', 'roles', 'functioning', 'Readings', 'textbook', 'PPT', 'instructure', 'Module', 'canvas', 'courses', '7/files', 'yK9uASwQteNktz45Q4DDaLbo81q8it2ucONtjOao', 'api-returntype', 'set', 'overview', 'development', 'computers', 'need', 'History', 'Computing', 'iframe', 'youtube', '26QPDBe-NB8', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'gyroscope', 'picture', 'Introduction', 'vBURTt97EkA', 'Purpose', 'YqIveJ2t2Js', 'media', 'pVzRTmdd9j0', 'Lesson 02', 'assignments', 'amazonaws', '10500000000085746/attachments', '2>']
+Score: 100
+
+Pos: 12
+10500000013048109 - L03: Activities - Modern Client and Server Operating Systems
+Due at: 2021-09-11T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Mac OS Snow Leopard', 'Penn State Library System', 'Apple Mac operating system', 'modern network operating systems', 'Server Operating Systems', 'modern computer networking', 'outside text chapter', 'Modern Client', 'Outside Materials', 'key information', 'MS Windows', 'catalog.libraries', 'client-server model', 'Client-Server Concept', '2>Action Items', 'online content', 'due date', 'Group Project', 'client/server architecture', 'Lecture Videos', 'Client-Server Architecture', 'extended introduction', 'role', 'Readings', 'textbook', 'psu', 'Depth', 'PPT', 'instructure', 'Module', 'canvas', 'courses', 'files', 'Y2EWgP71OiGiA8ZkF7gyLaXe21Cq4i2abzREvh7o', 'endpoint', 'returntype', 'Powerpoint', 'set', 'foundation', 'basis', 'Internet', 'iframe', 'youtube', 'toLnp3PJVVA', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'media', 'gyroscope', 'picture', 'Uu8KfoK1uPE', 'Lesson', 'assignments', 'api', 'uploads', 'amazonaws', '6/attachments', 'Mobile', 'js']
+Score: 100
+
+Pos: 13
+10500000013048110 - L04: Activities - The Central Processing Unit (CPU)
+Due at: 2021-09-18T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['The Central Processing Unit', 'Von Neumann Architecture', 'Outside Materials', 'additional information', 'basic architecture', 'computersciencewiki.org', 'Lecture Videos', 'following videos', 'main architecture', '2>Action Items', 'online content', 'due date', 'Group Project', 'Mobile.js', 'CPU Architecture', 'CPU) Design', 'CPU Design', 'instructure_file_link instructure', 'Objectives', 'components', 'role', 'functioning', 'Readings', 'Chapter', 'textbook', 'website', 'Basics', 'PPT', 'Module', 'canvas', 'courses', 'files', 'VuDtpJehsdP4U38w0mDtbxT3xkXUYwGDgA08UpTU', 'returntype', 'Powerpoint', 'heart', 'soul', 'device', 'functionality', 'users', 'machine', 'introductions', 'operation', 'iframe', 'youtube', 'rtAlC5J1U40', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'gyroscope', 'picture', 'SbqXqQ-2ixs', 'media', 'Lesson', 'assignments', 'api', 'uploads', 'amazonaws', '6/attachments']
+Score: 100
+
+Pos: 14
+10500000013048111 - L05: Activities - File Systems
+Due at: 2021-09-25T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['simple mathematical operations', 'Linux Operating Systems', 'MacOS file system', 'file systems', 'File Formats', 'Outside Materials', 'additional content', 'critical role', 'Tutorials Point', 'Lecture Videos', 'two videos', 'key functionality', 'Action Items', 'online content', 'due date', 'Group Project', 'files systems', 'Website Tutorial', 'Chapter 4 Powerpoint', 'instructure_file_link instructure', 'Objectives', 'Windows', 'Readings', 'textbook', 'computer', 'tutorialspoint', 'operating_system', 'file_system', 'PPT', 'Module', 'canvas', 'courses', 'lsVObd3zCgsF2gGapDg0KsqA4ZUfjKxD1UfAiGuA', 'returntype', 'set', 'nature', 'workings', 'Introduction', 'iframe', 'youtube', 'KN8YgJnShPM', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'gyroscope', 'picture', 'h30HBYxtws', 'Lesson 05', 'api', 'endpoint', 'assignments', '<a', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 15
+10500000013048112 - L06: Activities - Installing and Configuring Operating Systems
+Due at: 2021-10-02T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Linux operating systems', 'Upgrading Operating Systems', 'Outside Materials', 'useful information', 'Action Items', 'online content', 'due date', 'Group Project', 'New Computer', 'Lecture Video', 'Chapter 5 Powerpoint', 'Hypervisor Lab', 'instructure_file_link instructure', '>Lab', 'Objectives', 'knowledge', 'Windows', 'issues', 'Readings', 'textbook', 'The', 'Wiki', 'installation', 'Brand-New-Computer', 'PPT', 'Module', 'canvas', 'courses', 'files', 'nBiDisezTTM2Qy9OvFvqQjeXiLklqHd15B1ei6T4', 'api-returntype', 'hands', 'instruction', 'iframe', 'youtube', '0kY9v5GNbb4', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'gyroscope', 'picture', 'assignments', 'endpoint', 'Lesson', 'title', 'instructure-uploads', 'amazonaws', '6/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 16
+10500000013048114 - L07A: Activities - Devices and Device Drivers
+Due at: 2021-10-09T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['Driver Development Course', 'OS Security Course', 'operating systems', 'key link', 'peripheral components', 'basic introductions', 'Supplemental Material', 'InfoSec Institute', '2>Action Items', 'Lesson 07A', 'online content', 'due date', 'Group Project', 'Mobile.js', 'device drivers', 'Linux) drivers', 'Lecture Videos', 'input/output devices', 'Linux Devices', 'Windows 10 Drivers', 'instructure_file_link instructure', 'Objectives', 'importance', 'function', 'Readings', 'Chapter', 'textbook', 'Website', 'computerhope', 'jargon', 'Basics', 'PPT', 'Module', 'canvas', 'courses', 'files', 'download', 'Qg8Z3JsKnxI1lTzIlFtpdwTWOHqw54tI8vjlcvUh', 'api-returntype', 'Powerpoint', 'iframe', 'youtube', 'ZvSRrVVhqV4', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard', 'write', 'gyroscope', 'picture', 'b58CnY7qxpk', 'media', 'infosecinstitute', 'skills', 'path', '43 minutes', 'Hardware', 'endpoint', 'assignments', 'script', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments']
+Score: 100
+
+Pos: 17
+10500000013048118 -  L08: Activities - Installing and Configuring Storage
+Due at: 2021-10-23T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['data storage devices', 'different types', 'Hard Drive', 'Lecture Videos', 'Desktop PC', 'Action Items', 'online content', 'due date', 'Group Project', 'secondary storage', 'Storage Spaces', 'Chapter 7 Powerpoint', 'canvas.instructure', 'Objectives', 'technologies', 'Readings', 'textbook', 'websites', 'detail', 'primary', 'computers', 'digitaltrends', 'ram', 'Wiki', 'a-Hard-Drive', 'PPT', 'Module', 'courses', 'download', '7w1PsdBKABAd9WooCHJSQVOzyRE0TiEr8cZonJZ7', 'files', 'api-returntype', 'Basics', 'Linux', 'youtube', 'TQ5m6TgzWx0', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'media', 'gyroscope', 'picture', 'Windows', 'N0ykQSbslmA', 'C-osLuzsXOs', 'Lesson', 'assignments', 'title', 'script', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile', '2>']
+Score: 100
+
+Pos: 18
+10500000013048119 - L09: Activities - Virtualization and Cloud Computing Fundamentals
+Due at: 2021-10-30T03:59:59Z
+Points Possible: None
+Course: 10500000002134157
+Key Phrases: ['VMware Hypervisor Architecture', 'global computing environment', 'Cloud Computing Fundamentals', 'Platform Virtualization Software', 'various forms', 'secure environments', 'Internet-based storage', 'foreseeable future', 'Lecture Video', 'Supplemental Materials', 'InfoSec Institute', 'Action Items', 'online content', 'due date', 'Group Project', 'key technology', 'Accenture Website', 'instructure_file_link instructure', 'Wikipedia Comparison', 'Objectives', 'basics', 'Readings', 'Chapter', 'textbook', 'websites', 'insight', 'today', 'computers', 'importance', 'platform_virtualization_software', 'cloud-computing-index', 'PPT', 'Module', 'canvas', 'courses', 'OtjycxUu53kr4W8dy0XcEOG3GEgwdZFzLHDfVDt7', 'endpoint', 'returntype', 'Powerpoint', 'Introduction', 'EvXn2QiL3gs', 'allowfullscreen', 'accelerometer', 'autoplay', 'clipboard-write', 'media', 'gyroscope', 'picture', 'VirtualBox', 'iframe', 'youtube', 'sB_5fqiysi4', 'Hyper-V', 'Em7zAMMrd70', 'RWgW-CgdIk0', 'infosecinstitute', 'skills', 'minutes', 'Lesson', 'api', 'assignments', 'title', 'script', 'instructure-uploads', 'amazonaws', '10500000000085746/attachments', 'Mobile', 'js', '2>']
+Score: 100
+
+Pos: 19
+10500000012636812 - Quiz 2.2 (Online)
+Due at: 2021-02-02T04:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['practice quizzes', 'course website', '10 Questions', 'Sections', 'videos', 'instructure-uploads', 'amazonaws', 'attachments', 'Mobile']
+Score: 100
+
+Pos: 20
+10500000012636840 - Quiz 3.1 (Data Types-Online)
+Due at: 2021-02-20T04:59:00Z
+Points Possible: 10.0
+Course: 10500000002116351
+Key Phrases: ['course notes', 'MySQL manuals', 'DB account', 'online quiz', 'sections', 'website', 'statements', 'help', 'Lab', 'script', 'instructure-uploads', 'amazonaws', 'attachments']
+Score: 100
+
+Pos: 21
+10500000012636844 - Quiz 5.1 (Online)
+Due at: 2021-03-30T03:59:00Z
+Points Possible: 8.0
+Course: 10500000002116351
+Key Phrases: ['time limit', 'one trial', '60-minute', 'Questions', 'Sections', 'script', 'instructure', 'uploads', 'amazonaws', '10500000000085746/attachments']
+Score: 100
+
+Pos: 22
+10500000012636823 - Midterm (InClass)
+Due at: 2021-03-23T21:59:00Z
+Points Possible: 100.0
+Course: 10500000002116351
+Key Phrases: ['serious academic integrity violation', '>60-minute time limit', 'multiple-choice questions', 'Midterm Exams', 'class', 'topics', 'mixture', 'script', 'instructure-uploads', 'amazonaws', 'attachments']
+Score: 100

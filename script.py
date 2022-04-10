@@ -51,9 +51,14 @@ class Assignment:
         score_phrases = {
             "final": 100,
             "end of term": 100,
+            "<strong>exam": 80,
+            "Group Project": 80,
             "essay": 75,
+            "Lab": 50,
+            "lab": 50,
             "reference page": 50,
             "required reference page": 50,
+            "online quiz": 40,
             "quiz": 50,
             "homework": 25,
             "MS Word": 10
@@ -116,16 +121,17 @@ class Prioritizer:
         pass
 
     def print_assignments(self):
+        print("\n\t---- printing un-prioritized assignment list ----")
         for i in range(len(self.assignments) - 1):
             a = self.assignments[i]
             print("\nPos: {}\n{} - {}\nDue at: {}\nPoints Possible: {}\nCourse: {}\nKey Phrases: {}\nScore: {}".format(i, a.id, a.name, a.due_at, a.points_possible, a.course_id, a.key_phrases, a.score))
 
     def print_prioritized_assignments(self):
-        #prioritized_assignments = sorted(self.assignments, key=operator.attrgetter("score"))
+        print("\n\t---- printing prioritized assignment list ----")
         prioritized_assignments = sorted(self.assignments, key=lambda assignment:assignment.score, reverse=True)
         for i in range(len(prioritized_assignments) - 1):
             a = prioritized_assignments[i]
             print("\nPos: {}\n{} - {}\nDue at: {}\nPoints Possible: {}\nCourse: {}\nKey Phrases: {}\nScore: {}".format(i, a.id, a.name, a.due_at, a.points_possible, a.course_id, a.key_phrases, a.score))
 p = Prioritizer()
+p.print_assignments()
 p.print_prioritized_assignments()
-# print(p.assignments)
