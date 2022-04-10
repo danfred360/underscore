@@ -1,0 +1,17 @@
+exception occurred gathering info for course: 10500000001961610 - missing critical info
+exception occurred gathering assignments for course: 10500000001961610
+exception occurred gathering info for course: 10500000002004591 - missing critical info
+exception occurred gathering assignments for course: 10500000002004591
+exception occurred gathering info for course: 10500000002169921 - missing critical info
+exception occurred gathering info for course: 10500000002134157 - missing critical info
+exception occurred gathering info for course: 10500000001914014 - missing critical info
+exception occurred gathering assignments for course: 10500000001914014
+exception occurred gathering info for course: 10500000001942126 - missing critical info
+exception occurred gathering assignments for course: 10500000001942126
+exception occurred gathering info for course: 10500000001967591 - missing critical info
+exception occurred gathering assignments for course: 10500000001967591
+exception occurred gathering info for course: 10500000002028578 - missing critical info
+exception occurred gathering assignments for course: 10500000002028578
+exception occurred gathering info for course: 10500000002116351 - missing critical info
+exception occurred gathering info for course: 10500000002036207 - missing critical info
+exception occurred gathering assignments for course: 10500000002036207

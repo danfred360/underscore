@@ -1,0 +1,69 @@
+exception occurred gathering info for course: 10500000001961610 - missing critical info
+exception occurred gathering assignments for course: 10500000001961610
+exception occurred gathering info for course: 10500000002004591 - missing critical info
+exception occurred gathering assignments for course: 10500000002004591
+exception occurred gathering info for course: 10500000002169921 - missing critical info
+exception occurred gathering info for course: 10500000002134157 - missing critical info
+exception occurred gathering assignments for course: 10500000002134157
+exception occurred gathering info for course: 10500000001914014 - missing critical info
+exception occurred gathering assignments for course: 10500000001914014
+exception occurred gathering info for course: 10500000001942126 - missing critical info
+exception occurred gathering assignments for course: 10500000001942126
+exception occurred gathering info for course: 10500000001967591 - missing critical info
+exception occurred gathering assignments for course: 10500000001967591
+exception occurred gathering info for course: 10500000002028578 - missing critical info
+exception occurred gathering assignments for course: 10500000002028578
+exception occurred gathering info for course: 10500000002116351 - missing critical info
+exception occurred gathering info for course: 10500000002036207 - missing critical info
+exception occurred gathering assignments for course: 10500000002036207
+Chapter 9 Powerpoint - <p><a class="instructure_file_link instructure_scribd_file" title="Chapter 9 Powerpoints.pptx" href="https://canvas.instructure.com/courses/1050~2169921/files/1050~128842797/download?verifier=guzG2JYQNn62YT6XNIOK7d4TH1tQJ3X5HEZWkPLS&amp;wrap=1" data-api-endpoint="https://canvas.instructure.com/api/v1/courses/1050~2169921/files/1050~128842797" data-api-returntype="File">Chapter 9 Powerpoints.pptx</a></p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Work on Group Project - None
+Assignment 1 - <p>Research the agencies that oversee information security in the U.S. and the E.U.&nbsp; &nbsp;Write a 3 page (full 3 pages without any graphics, double spaced and not including the reference page which is required) overview for these agencies. Turn in the MS Word on Canvas by the deadline.</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Assignment 2 - <p>Write a 4 page review of the following (similar to the first assignment with respect to its format and requirements):</p>
+<p>Sarbanes-Oxley</p>
+<p>FISMA</p>
+<p>Guide for the Security Certification and Accreditation of Federal<br>Information Systems</p>
+<p>SANS</p>
+<p>&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Assignment 3 - <p>Research commercial software products/devices that can be used to track employees as they utilize company-owned devices (both onsite and offsite) such as laptops, desktop computers, etc. Write a page writeup on each of three of these software/device products describing how they work, what level of detail can be seen on employee activities, etc. Also research any laws or regulations that may govern how a company or organization can monitor its employees this way. Describe any laws, regulations, or lack thereof, in another two page writeup. Combine these into a single 5 page document (not counting graphics and the required reference page) and turn it in on Canvas by the deadline.</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Assignment 4 - None
+Read Chapter 1 - 
+Read Chapter 2 - 
+Read Chapter 3 - 
+Read Chapter 4 - 
+Quiz 1.1 (Online) - <p>This quiz covers Sections 1.1, 1.2, and 1.3.&nbsp; Read these sections before taking the quiz. </p>
+<p>There is a 20-minute time limit. Only a single attempt is allowed.</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 2.2 (Online) - <p>10 Questions </p>
+<p>Read Sections 2.1, 2.2, 2.3, and 2.4, watch videos, and do the practice quizzes on the course website.</p>
+<p>&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 3.1 (Data Types-Online) - <p>This quiz is an online quiz from sections 3.1 and 3.2. You are allowed to use the course notes, website, MySQL manuals, as well as your DB account if you choose to run statements. However, you are forbidden to ask help to anyone else during the quiz.&nbsp;</p>
+<p>You should also complete Lab 3.0 before this quiz.&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 3.4 (Create, Update, Referential Integrity -online)  - <p>This quiz covers Sections 3.3, 3.4, 3.5, and 3.6.</p>
+<p>Read these sections carefully before taking the quiz. You should also complete all labs before this quiz.</p>
+<p>There are 8 questions. You have a 40 min time limit. One question at a time will be displayed.</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 4.1-Normalization  - <p>Read Chapter 4 and Lecture notes very carefully before this quiz.</p>
+<p>&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 5.1 (Online) - <p>60-minute&nbsp; time limit.</p>
+<p>Questions are from Sections 5.1 and 5.2</p>
+<p>Only one trial.</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Midterm (InClass) - <p>The midterm will be in class. It covers all topics so far. It is a mixture of multiple-choice questions.&nbsp;</p>
+<p>60-minute time limit.&nbsp;&nbsp;</p>
+<p>Accessing the Midterm Exams outside of the class is considered a serious academic integrity violation.&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 5.3 (Online) - <p>For each query, identify the id(s) that will be returned when you run the query in MySQL. If the query does not return any row, select NULL.</p>
+<p><strong>You have to identify all returned rows correctly in order to get points (no partial credit).</strong></p>
+<p>&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 5.5.2: Group by   - <p>This quiz is from Class Activity: Math Courses. It is recommended that you complete the class activity: Math Courses before taking this quiz. Read the instructions of the assignment carefully.&nbsp;&nbsp;</p>
+<p><strong>1)</strong> You will use <strong>exam</strong> database for this assignment. Type&nbsp;</p>
+<p><strong>use exam;</strong></p>
+<p>in your database account to use the exam database.&nbsp;</p>
+<p>To make sure that you can access the table, type</p>
+<p><strong>select *</strong></p>
+<p><strong>from mathcourse;</strong></p>
+<p><strong>2)</strong> You will write SQL queries to find <strong>numerical answers</strong> to the given&nbsp;problems.&nbsp;Your answers&nbsp;must be 100% correct to get credit.&nbsp;</p>
+<p><strong>3)</strong> Allocate a&nbsp;<span style="font-size: 1rem;">continuous time period of&nbsp;</span><span style="font-size: 1rem;">at least 60 minutes for the assignment. When you start the quiz, you need to finish it. You cannot save your&nbsp;answers.&nbsp;</span></p>
+<p><strong>4)&nbsp;</strong>Use the lecture notes and Section 5.5 to help you. You will use the following table.&nbsp;</p>
+<pre><strong>create table mathcourse (<br> RNO INT,<br> StudentID INT, <br> CourseID CHAR(10),<br> Credit INT,<br> OTerm CHAR(10),<br> OYear YEAR,<br> ProfID INT,<br> Grade INT,<br> Weight float, <br> primary key (RNO),<br>);</strong></pre>
+<p>&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
+Quiz 5.6 Joins (Online) - <p>This quiz covers joins, sub-queries, and the Coffee Shop class activity. You have 90 minutes to complete. Review the relevant sections before completing the quiz. Use the exam database to answer some of the sql&nbsp;questions.&nbsp;</p>
+<p>Take your time and think thoroughly before submitting the quiz.</p>
+<p>&nbsp;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>
