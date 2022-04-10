@@ -1,0 +1,18 @@
+exception occurred gathering info for course: 10500000001961610 - missing critical info
+exception occurred gathering assignments for course: 10500000001961610
+exception occurred gathering info for course: 10500000002004591 - missing critical info
+exception occurred gathering assignments for course: 10500000002004591
+exception occurred gathering info for course: 10500000002169921 - missing critical info
+exception occurred gathering info for course: 10500000002134157 - missing critical info
+exception occurred gathering info for course: 10500000001914014 - missing critical info
+exception occurred gathering assignments for course: 10500000001914014
+exception occurred gathering info for course: 10500000001942126 - missing critical info
+exception occurred gathering assignments for course: 10500000001942126
+exception occurred gathering info for course: 10500000001967591 - missing critical info
+exception occurred gathering assignments for course: 10500000001967591
+exception occurred gathering info for course: 10500000002028578 - missing critical info
+exception occurred gathering assignments for course: 10500000002028578
+exception occurred gathering info for course: 10500000002116351 - missing critical info
+exception occurred gathering info for course: 10500000002036207 - missing critical info
+exception occurred gathering assignments for course: 10500000002036207
+[AnalyzeSentimentResult(id=0, sentiment=neutral, warnings=[], statistics=None, confidence_scores=SentimentConfidenceScores(positive=0.01, neutral=0.97, negative=0.02), sentences=[SentenceSentiment(text=<p><a class="instructure_file_link instructure_scribd_file" title="Chapter 9 Powerpoints.pptx" href="https://canvas.instructure.com/courses/1050~2169921/files/1050~128842797/download?verifier=guzG2JYQNn62YT6XNIOK7d4TH1tQJ3X5HEZWkPLS&amp;wrap=1" data-api-endpoint="https://canvas.instructure.com/api/v1/courses/1050~2169921/files/1050~128842797" data-api-returntype="File">Chapter 9 Powerpoints.pptx</a></p><script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>, sentiment=neutral, confidence_scores=SentimentConfidenceScores(positive=0.01, neutral=0.97, negative=0.02), length=531, offset=0, mined_opinions=[])], is_error=False)]

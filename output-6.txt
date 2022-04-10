@@ -1,0 +1,44 @@
+exception occurred gathering info for course: 10500000001961610 - missing critical info
+exception occurred gathering assignments for course: 10500000001961610
+exception occurred gathering info for course: 10500000002004591 - missing critical info
+exception occurred gathering assignments for course: 10500000002004591
+exception occurred gathering info for course: 10500000002169921 - missing critical info
+exception occurred gathering info for course: 10500000002134157 - missing critical info
+exception occurred gathering info for course: 10500000001914014 - missing critical info
+exception occurred gathering assignments for course: 10500000001914014
+exception occurred gathering info for course: 10500000001942126 - missing critical info
+exception occurred gathering assignments for course: 10500000001942126
+exception occurred gathering info for course: 10500000001967591 - missing critical info
+exception occurred gathering assignments for course: 10500000001967591
+exception occurred gathering info for course: 10500000002028578 - missing critical info
+exception occurred gathering assignments for course: 10500000002028578
+exception occurred gathering info for course: 10500000002116351 - missing critical info
+exception occurred gathering info for course: 10500000002036207 - missing critical info
+exception occurred gathering assignments for course: 10500000002036207
+[AnalyzeSentimentResult(id=0, sentiment=neutral, warnings=[], statistics=None, confidence_scores=SentimentConfidenceScores(positive=0.01, neutral=0.97, negative=0.02), 
+sentences=[SentenceSentiment(text=<p><a class="instructure_file_link instructure_scribd_file" title="Chapter 9 Powerpoints.pptx" 
+href="https://canvas.instructure.com/courses/1050~2169921/files/1050~128842797/download?verifier=guzG2JYQNn62YT6XNIOK7d4TH1tQJ3X5HEZWkPLS&amp;wrap=1" 
+data-api-endpoint="https://canvas.instructure.com/api/v1/courses/1050~2169921/files/1050~128842797" 
+data-api-returntype="File">Chapter 9 Powerpoints.pptx</a></p><script 
+src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>, 
+sentiment=neutral, confidence_scores=SentimentConfidenceScores(positive=0.01, neutral=0.97, negative=0.02), length=531, offset=0, mined_opinions=[])], is_error=False), 
+AnalyzeSentimentResult(id=2, sentiment=neutral, warnings=[], statistics=None, confidence_scores=SentimentConfidenceScores(positive=0.02, neutral=0.83, negative=0.15), 
+sentences=[SentenceSentiment(text=<p>Research the agencies that oversee information security in the U.S. and the E.U.&nbsp; &nbsp;Write a 3 page 
+(full 3 pages without any graphics, double spaced and not including the reference page which is required) overview for these agencies. , 
+sentiment=neutral, confidence_scores=SentimentConfidenceScores(positive=0.03, neutral=0.55, negative=0.43), length=246, offset=0, mined_opinions=[]), 
+SentenceSentiment(text=Turn in the MS Word on Canvas by the deadline.</p>, sentiment=neutral, 
+confidence_scores=SentimentConfidenceScores(positive=0.02, neutral=0.97, negative=0.02), length=50, offset=246, mined_opinions=[]), 
+SentenceSentiment(text=<script src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>, 
+sentiment=neutral, confidence_scores=SentimentCon, AnalyzeSentimentResult(id=3, sentiment=neutral, warnings=[], statistics=None, 
+confidence_scores=SentimentConfidenceScores(positive=0.03, neutral=0.89, negative=0.08), 
+sentences=[SentenceSentiment(text=<p>Write a 4 page review of the following (similar to the first assignment with respect to its format and requirements):</p> 
+<p>Sarbanes-Oxley</p> <p>FISMA</p> <p>Guide for the Security Certification and Accreditation of Federal<br>Information Systems</p> <p>SANS</p> <p>&nbsp;</p><script 
+src="https://instructure-uploads.s3.amazonaws.com/account_10500000000085746/attachments/88254828/Mobile.js"></script>, sentiment=neutral, 
+confidence_scores=SentimentConfidenceScores(positive=0.03, neutral=0.89, negative=0.08), length=406, offset=0, mined_opinions=[])], is_error=False), 
+AnalyzeSentimentResult(id=4, sentiment=negative, warnings=[], statistics=None, confidence_scores=SentimentConfidenceScores(positive=0.01, neutral=0.31, negative=0.68), 
+sentences=[SentenceSentiment(text=<p>Research commercial software products/devices that can be used to track employees as they utilize company-owned devices 
+(both onsite and offsite) such as laptops, desktop computers, etc. , sentiment=neutral, confidence_scores=SentimentConfidenceScores(positive=0.01, neutral=0.98, 
+negative=0.01), length=190, offset=0, mined_opinions=[]), SentenceSentiment(text=Write a page writeup on each of three of these software/device products describing 
+how they work, what level of detail can be seen on employee activities, etc. , sentiment=neutral, confidence_scores=SentimentConfidenceScores(positive=0.05, 
+neutral=0.93, negative=0.03), length=160, offset=190, mined_opinions=[]), SentenceSentiment(text=Also research any laws or regulations that may govern how a company or 
+organization can monitor its employees this way. ]
