@@ -7,6 +7,9 @@ flask environment variables
 ```bash
 export FLASK_APP=project
 export FLASK_DEBUG=1
+export TOKEN=<your-canvas-integration-token>
+export TEXT_ANYL_KEY=<your-azure-text-anyl-key>
+export TEXT_ANYL_ENDPOINT=<azure-text-anyl-resource-endpoint-url>
 ```
 
 create database for flask app (run in python REPL)
