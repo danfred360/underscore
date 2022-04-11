@@ -1,5 +1,7 @@
 # underscore
-MS Teams app that integrates with Canvas to send reminder messages for assignments
+MS Teams app that integrates with Canvas to assist groups in prioritizing upcoming assignments. Uses Azure Text Analysis API to analyze assignments.
+
+## runnning web app locally
 
 flask environment variables
 ```bash
