@@ -12,6 +12,11 @@ export TEXT_ANYL_KEY=<your-azure-text-anyl-key>
 export TEXT_ANYL_ENDPOINT=<azure-text-anyl-resource-endpoint-url>
 ```
 
+install required packages
+```bash
+pip install -r requirments.txt # use a virtual env
+```
+
 create database for flask app (run in python REPL)
 ```python
 from project import db, create_app, models
