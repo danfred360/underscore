@@ -1,0 +1,451 @@
+
+	 ---- getting courses ----
+
+	19 courses gathered...
+
+	 ---- getting assignments ----
+
+exception occurred gathering assignment info for assignment: Assignment 3
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: Assignment 4
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L01: Activities - Introduction to Computers 
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L07B: Activities - Operating System Command Line Commands
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L02: Activities - Operating Systems Fundamentals
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L03: Activities - Modern Client and Server Operating Systems
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L04: Activities - The Central Processing Unit (CPU)
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L05: Activities - File Systems
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L06: Activities - Installing and Configuring Operating Systems
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L07A: Activities - Devices and Device Drivers
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment:  L08: Activities - Installing and Configuring Storage
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L09: Activities - Virtualization and Cloud Computing Fundamentals
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L2:  CSS Refresher Activities (Optional)
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L5:  DOM Activities
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L3:  Bootstrap Activities (Optional)
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: L6:  JavaScript Activities
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: System Development Tools 
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: System Development Tools Presentation
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: Initial Design Presentations
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: Final Presentation Schedule
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+exception occurred gathering assignment info for assignment: VLAN Lab
+Error - <class 'TypeError'> : ("'int' object is not callable",)
+
+
+	138 assignments gathered...
+
+	---- printing prioritized assignment list (outstanding) ----
+
+Weights - 
+	KEY_PHRASE_SCORE_WEIGHT: 1
+	DUE_DATE_PROXIMITY_WEIGHT: 1
+	POINT_IMPACT_WEIGHT: 1
+
+Pos: 0
+
+10500000013800827 - JDBC
+Due at: None - Overdue: False
+Points Possible: 10.0
+Course: IST 411, Section 001: Dist-Obj Comp (22211--BK---P-IST-----411-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 1
+
+10500000013800828 - Cryptography
+Due at: None - Overdue: False
+Points Possible: 20.0
+Course: IST 411, Section 001: Dist-Obj Comp (22211--BK---P-IST-----411-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 2
+
+10500000013800831 - Team Charter
+Due at: None - Overdue: False
+Points Possible: 10.0
+Course: IST 411, Section 001: Dist-Obj Comp (22211--BK---P-IST-----411-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 3
+
+10500000013800829 - System, Users & Tasks
+Due at: None - Overdue: False
+Points Possible: 25.0
+Course: IST 411, Section 001: Dist-Obj Comp (22211--BK---P-IST-----411-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 4
+
+10500000013800825 - Final Project
+Due at: None - Overdue: False
+Points Possible: 60.0
+Course: IST 411, Section 001: Dist-Obj Comp (22211--BK---P-IST-----411-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 5
+
+10500000013788822 - Design Review & Usability Testing Report 
+Due at: None - Overdue: False
+Points Possible: 20.0
+Course: IST 413, Section 001: Usr Eng (22211--BK---P-IST-----413-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 6
+
+10500000013788821 - Revised Design
+Due at: None - Overdue: False
+Points Possible: 20.0
+Course: IST 413, Section 001: Usr Eng (22211--BK---P-IST-----413-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 7
+
+10500000013788819 - Final Document
+Due at: None - Overdue: False
+Points Possible: 60.0
+Course: IST 413, Section 001: Usr Eng (22211--BK---P-IST-----413-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 8
+
+10500000013560798 - Final Project
+Due at: None - Overdue: False
+Points Possible: 100.0
+Course: IST 451, Section 001: Net Security (22211--BK---P-IST-----451-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 9
+
+10500000012584531 - VHLcentral Registration
+Due at: None - Overdue: False
+Points Possible: 100.0
+Course: SPAN 2, Section 001: Elem Spanish II (22111--BK---CRSPAN----2---------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 200
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 100
+
+Pos: 10
+
+10500000013435152 - Chapter 9 Powerpoint
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: Section Merge: Combined Sections of IST 456 Spring 2022
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 11
+
+10500000013794123 - Work on Group Project
+Due at: None - Overdue: False
+Points Possible: None
+Course: Section Merge: Combined Sections of IST 456 Spring 2022
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 12
+
+10500000013435160 - Read Chapter 1
+Due at: None - Overdue: False
+Points Possible: None
+Course: Section Merge: Combined Sections of IST 456 Spring 2022
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 13
+
+10500000013435164 - Read Chapter 2
+Due at: None - Overdue: False
+Points Possible: None
+Course: Section Merge: Combined Sections of IST 456 Spring 2022
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 14
+
+10500000013435165 - Read Chapter 3
+Due at: None - Overdue: False
+Points Possible: None
+Course: Section Merge: Combined Sections of IST 456 Spring 2022
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 15
+
+10500000013435166 - Read Chapter 4
+Due at: None - Overdue: False
+Points Possible: None
+Course: Section Merge: Combined Sections of IST 456 Spring 2022
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 16
+
+10500000012335830 - Required Network Security Reading
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 17
+
+10500000012335780 - Link to Required Reading of Information on Wireless Network Security
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 18
+
+10500000012335832 - Required Reading on Firewalls
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 19
+
+10500000012335783 - Link to Supplementary Review of Networking Information and Tutorials
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 20
+
+10500000012335833 - Required Reading on the Basics of Encryption 
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 21
+
+10500000012335778 - Link to a Required Reading of a Short Tutorial on DIY Network Segmentation
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 22
+
+10500000012335829 - Required Additional Reading on Firewalls
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 23
+
+10500000012335831 - Required Reading of a Discussion of Networking Terms
+Due at: None - Overdue: False
+Points Possible: None
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 24
+
+10500000012335828 - Required Additional Reading - An Introduction to Networking
+Due at: None - Overdue: False
+Points Possible: None
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 25
+
+10500000012335858 - Supplementary Information Powerpoint
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 220, Section 001: Netwk and Telecom (22111--BK---CWIST-----220-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 26
+
+10500000013786422 - L1:  HTML Refresher Activities (Optional)
+Due at: None - Overdue: False
+Points Possible: None
+Course: IST 256, Section 001: Program for Web (22211--BK---WBIST-----256-------555N)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 27
+
+10500000013325772 - Roll Call Attendance
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 311, Section 001: Ood and Software (22181--BK---P-IST-----311-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 28
+
+10500000013325739 - Course Critique
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 331, Section 001: HUM CTRD DESIGN (22181--BK---P-IST-----331-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 29
+
+10500000013800826 - Course Critique
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 411, Section 001: Dist-Obj Comp (22211--BK---P-IST-----411-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
+
+Pos: 30
+
+10500000013788825 - Course Critique
+Due at: None - Overdue: False
+Points Possible: 0.0
+Course: IST 413, Section 001: Usr Eng (22211--BK---P-IST-----413-------001-)
+Key Phrases: ['not gathered, srry']
+Total Score: 0
+Key Phrase Score: 100
+Due Date Proximity Score: 0
+Point Impact Score: 0
