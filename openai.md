@@ -1,5 +1,5 @@
-## completions endpoint
-create completion
+# completions endpoint
+## create completion
 ```python
 POST https://api.openai.com/v1/engines/{engine_id}/completions
 ```
@@ -55,7 +55,7 @@ openai.Completion.create(
 ```
 
 # classifications
-create classification
+## create classification
 ```python
 POST https://api.openai.com/v1/classifications
 
@@ -115,7 +115,7 @@ openai.Classification.create(
 ```
 
 # answers
-create answer
+## create answer
 ```python
 POST https://api.openai.com/v1/answers
 
@@ -170,7 +170,7 @@ openai.Answer.create(
 # files
 files are used to upload documents that can be used accross features like Answers, Search, and Classifications
 
-list files
+## list files
 ```python
 GET https://api.openai.com/v1/files
 
@@ -203,7 +203,7 @@ openai.File.list()
 }
 ```
 
-upload file
+## upload file
 
 ```python
 POST https://api.openai.com/v1/files
@@ -264,7 +264,7 @@ openai.File.retrieve("file-XjGxS3KTG0uNmNOK362iJua3")
 }
 ```
 
-retrieve file content
+## retrieve file content
 ```python
 GET https://api.openai.com/v1/files/{file_id}/content
 
@@ -275,7 +275,8 @@ content = openai.File.download("file-XjGxS3KTG0uNmNOK362iJua3")
 
 ```
 
-[documentation](https://beta.openai.com/docs/api-reference/completions/create?lang=python)
-## reference links
+# reference links
 - [openai models breakdown](https://beta.openai.com/docs/engines/overview)
   - [model comparison tool](https://gpttools.com/comparisontool)
+- [openai example flask project](https://github.com/openai/openai-quickstart-python)
+- [documentation](https://beta.openai.com/docs/api-reference/completions/create?lang=python)
