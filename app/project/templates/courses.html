@@ -13,8 +13,8 @@
                 <div class="tile is-parent is-vertical">
                   {% for course in courses %}
                     <article class="tile is-child notification is-danger">
-                        <a href="courses/{{ course.id }}"><p class="title">{{ course.name }}</p></a>
-                        <p class="subtitle">{{ course.description }}</p>
+                        <a href="courses/{{ course.id }}"><p class="title">{{ course.course_code }}</p></a>
+                        <p class="subtitle">{{ course.name }}</p>
                     </article>
                   {% endfor %}
                   {% if courses.length == 0 %}
