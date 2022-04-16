@@ -6,6 +6,7 @@ Python script that pull assignment from Canvas (using Canvas integration api key
     ![graph](pictures/due_date_proximity_score_not_overdue.png)
 - points possible
 
+[openai](openai.md)
 
 ## Running Locally
 ### Prioritization Script

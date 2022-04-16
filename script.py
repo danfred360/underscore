@@ -9,7 +9,7 @@ from datetime import datetime
 import math
 from decimal import Decimal
 
-CALL_AZURE=False
+CALL_AZURE=True
 
 KEY_PHRASE_SCORE_WEIGHT = 1
 DUE_DATE_PROXIMITY_WEIGHT = 1
@@ -96,7 +96,7 @@ class Assignment:
         return score
 
     def extract_key_phrases(self):
-        credential = AzureKeyCredential('AZURE_KEY')
+        credential = AzureKeyCredential(os.environ['TEXT_ANYL_KEY'])
         endpoint = os.environ['TEXT_ANYL_ENDPOINT']
 
         text_analytics_client = TextAnalyticsClient(endpoint, credential)
