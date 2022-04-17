@@ -9,6 +9,7 @@ from datetime import datetime
 import math
 from decimal import Decimal
 from flask import flash
+import openai
 
 CALL_AZURE=False
 
@@ -172,6 +173,17 @@ class Assignment:
             score = 0
         # TODO calculate score using points awarded / points possible for course, taking grade weighting into account
         return score
+
+    def get_starting_point(self):
+        openai.api_key = os.getenv("OPENAI_KEY")
+
+        prompt = 'Draft a submission taking the following into account: {}'.format(self.description)
+
+        openai.Completion.create(
+            engine="text-davinci-002",
+            prompt=prompt,
+            max_tokens=5
+        )
     
     def __str__(self):
         return "\n{} - {}\nDue at: {} - Overdue: {}\nPoints Possible: {}\nCourse: {}\nKey Phrases: {}\nTotal Score: {}\nKey Phrase Score: {}\nDue Date Proximity Score: {}\nPoint Impact Score: {}".format(self.id, self.name, self.due_at, self.overdue, self.points_possible, self.course_inst.course_code, self.key_phrases, self.score, self.key_phrase_score, self.due_date_proximity_score, self.point_impact_score)
@@ -247,6 +259,27 @@ class Prioritizer:
             # print("exception occurred gathering assignments for course: {}\nError - {} : {}".format(course.course_code, type(e), e.args))
 
         return [outstanding_assignments, assignments]
+
+    def get_assignment(self, course_id, assignment_id):
+        # /api/v1/courses/:course_id/assignments/:id
+        try:
+            url = "https://canvas.instructure.com/api/v1/courses/{}/assignments/{}?access_token={}".format(course_id, assignment_id, self.user.canvas_key)
+            response = urllib.request.urlopen(url)
+            data = response.read()
+            assignment = json.loads(data)
+
+            try:
+                new_assignment = Assignment(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignment['points_possible'], assignment['course_id'], assignment['has_submitted_submissions'])
+            except Exception as e:
+                flash('Error creating assignment object for: {}\nError: {}'.format(assignment['id'], e))
+                # if e != "list index out of range":
+                    # print("exception occurred gathering assignment info for assignment: {}\nError - {} : {}\n".format(assignment['name'], type(e), e.args))
+            
+        except Exception as e:
+            flash('Error gathering assignments\nError: {}'.format(e))
+            # print("exception occurred gathering assignments for course: {}\nError - {} : {}".format(course.course_code, type(e), e.args))
+
+        return new_assignment
 
     def prioritize_assignments(self, assignments):
         return sorted(assignments, key=lambda assignment:assignment.score, reverse=True)

@@ -40,7 +40,7 @@ def courses():
 
 @main.route('/courses/<id>')
 @login_required
-def detail_courses(id):
+def detail_course(id):
     return render_template('detail_course.html', assignments=get_assignments(id))
 
 
@@ -68,7 +68,12 @@ def get_assignments(course_id):
         db.session.add(new_assignment)
     return assignments
 
-
+@main.route('/assignments/<id>')
+@login_required
+def detail_assignment(id):
+    p = Prioritizer(current_user)
+    # need to pass course_id
+    return render_template('detail_assignment.html', assignments=get_assignments(id))
 
 # @main.route('/courses/<id>')
 # @login_required
