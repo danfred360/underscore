@@ -8,6 +8,7 @@ from azure.ai.textanalytics import (
 from datetime import datetime
 import math
 from decimal import Decimal
+from flask import flash
 
 CALL_AZURE=False
 
@@ -49,14 +50,13 @@ class Course:
             return ''
 
 class Assignment:
-    def __init__(self, assignment_id, name, description, due_at, points_possible, course_id, course_inst, submitted):
+    def __init__(self, assignment_id, name, description, due_at, points_possible, course_id, submitted):
         self.id = assignment_id
         self.name = name
         self.description = description
         self.due_at = due_at
         self.points_possible = points_possible
         self.course_id = course_id
-        self.course_inst = course_inst
         self.submitted = submitted
         
         if CALL_AZURE:
@@ -194,7 +194,7 @@ class Prioritizer:
     def get_courses(self):
         # print("\n\t ---- getting courses ----")
 
-        url = "https://canvas.instructure.com/api/v1/courses?per_page={}&enrollment_state=active&access_token={}".format(str(50), user.canvas_key) # os.environ['TOKEN']
+        url = "https://canvas.instructure.com/api/v1/courses?per_page={}&enrollment_state=active&access_token={}".format(str(50), self.user.canvas_key) # os.environ['TOKEN']
         response = urllib.request.urlopen(url)
         data = response.read()
         course_dict = json.loads(data)
@@ -206,7 +206,7 @@ class Prioritizer:
                 val = course["access_restricted_by_date"]
             except:
                 # print("\n{} - {}\nDescription: {}".format(course['id'], course['course_code'], course['name']))
-                new_course = Course(course['id'], course['course_code'], course['name'])
+                new_course = Course(course['id'], course['course_code'], course['name'], self.user)
                 courses.append(new_course)
 
         # print("\n\t{} courses gathered...".format(len(courses)))
@@ -214,39 +214,37 @@ class Prioritizer:
         return courses
 
     # will accept an array of courses
-    def get_assignments(self, courses_to_check):
+    def get_assignments(self, course_id):
 
         # print("\n\t ---- getting assignments ----\n")
         assignments = []
         outstanding_assignments = []
 
-        for course in courses_to_check:
-            try:
-                url = "https://canvas.instructure.com/api/v1/courses/{}/assignments?access_token={}".format(course.id, user.canvas_key)
-                response = urllib.request.urlopen(url)
-                data = response.read()
-                assignments_dict = json.loads(data)
+        try:
+            url = "https://canvas.instructure.com/api/v1/courses/{}/assignments?access_token={}".format(course_id, self.user.canvas_key)
+            response = urllib.request.urlopen(url)
+            data = response.read()
+            assignments_dict = json.loads(data)
 
-                for assignment in assignments_dict:
-                    try:
-                        new_assignment = Assignment(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignment['points_possible'], assignment['course_id'], course, assignment['has_submitted_submissions'])
-                        assignments.append(new_assignment)
+            for assignment in assignments_dict:
+                try:
+                    new_assignment = Assignment(assignment['id'], assignment['name'], assignment['description'], assignment['due_at'], assignment['points_possible'], assignment['course_id'], assignment['has_submitted_submissions'])
+                    assignments.append(new_assignment)
 
-                        if not new_assignment.submitted:
-                            course.outstanding_assignments.append(new_assignment)
-                            outstanding_assignments.append(new_assignment)
-                        else:
-                            course.completed_assignments.append(new_assignment)
-                    except Exception as e:
+                    if not new_assignment.submitted:
+                        # course.outstanding_assignments.append(new_assignment)
+                        outstanding_assignments.append(new_assignment)
+                    else:
+                        # course.completed_assignments.append(new_assignment)
                         pass
-                        # if e != "list index out of range":
-                            # print("exception occurred gathering assignment info for assignment: {}\nError - {} : {}\n".format(assignment['name'], type(e), e.args))
-                    
-            except Exception as e:
-                pass
-                # print("exception occurred gathering assignments for course: {}\nError - {} : {}".format(course.course_code, type(e), e.args))
-
-        # print("\n\t{} assignments gathered...".format(len(assignments)))
+                except Exception as e:
+                    flash('Error creating assignment object for: {}\nError: {}'.format(assignment['id'], e))
+                    # if e != "list index out of range":
+                        # print("exception occurred gathering assignment info for assignment: {}\nError - {} : {}\n".format(assignment['name'], type(e), e.args))
+                
+        except Exception as e:
+            flash('Error gathering assignments\nError: {}'.format(e))
+            # print("exception occurred gathering assignments for course: {}\nError - {} : {}".format(course.course_code, type(e), e.args))
 
         return [outstanding_assignments, assignments]
 
