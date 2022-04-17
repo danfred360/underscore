@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="tile is-ancestor">
+    <div class="tile is-vertical">
+      
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-info">
+              <p class="title">{{ assignment.name }}</p>
+              <p class="subtitle">Due: {{ assignment.due_at }}, {{ assignment.points_possible }} points possible</p>
+          <div class="content">
+            <!-- Content -->
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="notification is-danger">
+                    {{ messages[0] }}
+                </div>
+            {% endif %}
+            {% endwith %}
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-danger">
+                  <a href="assignments/{{ assignment.id }}"><p class="title">{{ assignment.name }}</p></a>
+                  <p class="subtitle">Score: {{ assignment.score }}, Submitted: {{ assignment.submitted }} </p>
+                  <p>Starting point: {{ starting_point }}</p>
+              </article>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+{% endblock %}
