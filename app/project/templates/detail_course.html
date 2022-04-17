@@ -5,7 +5,7 @@
     <div class="tile is-vertical">
       
       <div class="tile is-parent is-vertical">
-        <article class="tile is-child notification is-danger">
+        <article class="tile is-child notification is-info">
               <p class="title">Assignments for course</p>
               <p class="subtitle">foo</p>
           <div class="content">
@@ -17,7 +17,14 @@
                 </div>
             {% endif %}
             {% endwith %}
-            {{ assignments }}
+            <div class="tile is-parent is-vertical">
+            {% for assignment in assignments %}
+              <article class="tile is-child notification is-danger">
+                  <a href="assignments/{{ assignment.id }}"><p class="title">{{ assignment.name }}</p></a>
+                  <p class="subtitle">Due: {{ assignment.due_at }}, {{ assignment.points_possible }} points possible</p>
+              </article>
+            {% endfor %}
+            </div>
           </div>
         </article>
       </div>
